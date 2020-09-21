@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Blackbison';
+    src: local('BlackBison'), url(./fonts/BlackBison.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'HighSchoolSans';
+    src: local('HighSchoolSans'), url(./fonts/HighSchoolSans.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'HighSchoolSerif';
+    src: local('HighSchoolSerif'), url(./fonts/HighSchoolSerif.ttf) format('truetype');
+}
+  
+/*
+body {
+    background-color: #212121;
+    height: 100vh;
+    height: -webkit-fill-available;
+    width: 100vw;
+}
+*/
+
+html {
+    height: -webkit-fill-available;
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    font-family: HighSchoolSans;
+    /* font-family: HighSchoolSerif; */
+}
+
+
+.font {
+    font-family: Blackbison;
+}
