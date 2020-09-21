@@ -52,7 +52,7 @@ const StyledButton = styled.button`
         border: none;
         padding: .5rem;
         color: white; 
-        font-family: HighSchoolSans;
+        font-family: 'HighSchoolSans', sans-serif;
         cursor: pointer;
 
         &:hover {

@@ -7,7 +7,7 @@ const StyledDate = styled.div`
     /* top: 20px; */
     display: flex;
     color: #F7F7F8;
-    font-family: BlackBison;
+    font-family: 'BlackBison', sans-serif;
     align-items: flex-end;
     z-index: 99;
     transform: translateY(-30%);

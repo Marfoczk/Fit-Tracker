@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Blackbison';
     src: local('BlackBison'), url(./fonts/BlackBison.otf) format('opentype');
 }
@@ -11,6 +11,20 @@
 @font-face {
     font-family: 'HighSchoolSerif';
     src: local('HighSchoolSerif'), url(./fonts/HighSchoolSerif.ttf) format('truetype');
+} */
+@font-face {
+    font-family: 'Blackbison';
+    src: local('BlackBison'), url(./fonts/BlackBison.otf);
+}
+
+@font-face {
+    font-family: 'HighSchoolSans';
+    src: local('HighSchoolSans'), url(./fonts/HighSchoolSans.ttf);
+}
+
+@font-face {
+    font-family: 'HighSchoolSerif';
+    src: local('HighSchoolSerif'), url(./fonts/HighSchoolSerif.ttf);
 }
   
 /*
