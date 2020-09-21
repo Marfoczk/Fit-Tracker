@@ -43,7 +43,8 @@ function App() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    axios.get('http://localhost:5000/exercises/')
+    // axios.get('http://localhost:5000/exercises/')
+    axios.get('/exercises/')
       .then(res => {
         setData(res.data)
         console.log(res);

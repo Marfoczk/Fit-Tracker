@@ -73,7 +73,8 @@ const StyledLink = styled(Link)`
 const EditExercisePage = (props) => {
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/exercises/${props.match.params.id}`)
+        // axios.get(`http://localhost:5000/exercises/${props.match.params.id}`)
+        axios.get(`/exercises/${props.match.params.id}`)
         .then(res => {
             setUsername(res.data.username)
             setDescription(res.data.description);
@@ -108,7 +109,8 @@ const EditExercisePage = (props) => {
         }
 
 
-        axios.post(`http://localhost:5000/exercises/update/${props.match.params.id}`, exercise)
+        // axios.post(`http://localhost:5000/exercises/update/${props.match.params.id}`, exercise)
+        axios.post(`/exercises/update/${props.match.params.id}`, exercise)
             .then(res => console.log(res.data))
 
         window.location = '/';
