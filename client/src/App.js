@@ -55,11 +55,7 @@ function App() {
       <Router>
         <Header/>
         <Indicator />
-        <Switch
-              // atEnter={{ opacity: 0 }}
-              // atLeave={{ opacity: 0 }}
-              // atActive={{ opacity: 1 }}
-        >
+        <Switch>
           <Route exact path="/" render={(props) => <Home {...props} data={data} />} />
           {/* <Route path="/about" exact component={}/> */}
           <Route path="/edit/:id" exact component={EditExercisePage}/>
