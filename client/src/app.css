@@ -14,17 +14,17 @@
 } */
 @font-face {
     font-family: 'BlackBison';
-    src: local('BlackBison'), url(./fonts/BlackBison.otf), url('./fonts/BlackBison.otf'), url('./fonts/BlackBison.b4bb2b91.otf');
+    src: local('BlackBison'), url(./fonts/BlackBison.otf), url('./fonts/BlackBison.otf');
 }
 
 @font-face {
     font-family: 'HighSchoolSans';
-    src: local('HighSchoolSans'), url(./fonts/HighSchoolSans.ttf), url('./fonts/HighSchoolSans.ttf'), url('./fonts/HighSchoolSans.d1f0c3ff.ttf');
+    src: local('HighSchoolSans'), url(./fonts/HighSchoolSans.ttf), url('./fonts/HighSchoolSans.ttf');
 }
 
 @font-face {
     font-family: 'HighSchoolSerif';
-    src: local('HighSchoolSerif'), url(./fonts/HighSchoolSerif.ttf), url('./fonts/HighSchoolSerif.ttf'), url('./fonts/HighSchoolSerif.2adbbacc.ttf');
+    src: local('HighSchoolSerif'), url(./fonts/HighSchoolSerif.ttf), url('./fonts/HighSchoolSerif.ttf');
 }
   
 /*
