@@ -7,7 +7,7 @@ const path = require('path');
 require('dotenv').config();
 
 // ** MIDDLEWARE / WHITELIST ** //
-const whitelist = ['http://localhost:3000', 'http://localhost:5000', 'https://fit-tracker-mrf.herokuapp.com/'];
+const whitelist = ['http://localhost:3000', 'http://localhost:5000', 'https://fit-tracker-mrf.herokuapp.com'];
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
