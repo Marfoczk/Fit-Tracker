@@ -43,7 +43,7 @@ html {
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
-    font-family: "HighSchoolSans";
+    font-family: 'Anton', sans-serif;
     /* font-family: HighSchoolSerif; */
 }
 
