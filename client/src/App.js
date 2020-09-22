@@ -44,7 +44,8 @@ function App() {
 
   useEffect(() => {
     // axios.get('http://localhost:5000/exercises/')
-    axios.get('/exercises/')
+    // axios.get('https://fit-tracker-mrf.herokuapp.com/')
+    axios.get('/exercises')
       .then(res => {
         setData(res.data)
         console.log(res);
