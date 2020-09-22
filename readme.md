@@ -6,11 +6,10 @@ Project deployed to Heroku.
 ## [LIVE DEMO HEROKU](https://fit-tracker-mrf.herokuapp.com/)
 
 ## Project setup
-###
-
 ROOT folder contains backend, server. 
 Client folder is where React UI lives.
-###
+
+### Installing dependencies
 ```
 npm install && cd client && npm install
 ```
