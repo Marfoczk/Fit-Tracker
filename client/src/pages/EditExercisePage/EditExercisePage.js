@@ -72,15 +72,27 @@ const StyledLink = styled(Link)`
 
 const EditExercisePage = (props) => {
 
+    const location = window.location.href;
+
     useEffect(() => {
-        // axios.get(`http://localhost:5000/exercises/${props.match.params.id}`)
-        axios.get(`/exercises/${props.match.params.id}`)
-        .then(res => {
-            setUsername(res.data.username)
-            setDescription(res.data.description);
-            setDuration(res.data.duration);
-            setDate(new Date(res.data.date))
-        })
+
+        if (location.includes('local')) {
+            axios.get(`http://localhost:5000/exercises/${props.match.params.id}`)
+                .then(res => {
+                    setUsername(res.data.username)
+                    setDescription(res.data.description);
+                    setDuration(res.data.duration);
+                    setDate(new Date(res.data.date))
+                })
+        } else {
+            axios.get(`/exercises/${props.match.params.id}`)
+                .then(res => {
+                    setUsername(res.data.username)
+                    setDescription(res.data.description);
+                    setDuration(res.data.duration);
+                    setDate(new Date(res.data.date))
+                })
+        }
     }, [])
 
     const [username, setUsername] = useState('mrf');
@@ -109,9 +121,19 @@ const EditExercisePage = (props) => {
         }
 
 
-        // axios.post(`http://localhost:5000/exercises/update/${props.match.params.id}`, exercise)
-        axios.post(`/exercises/update/${props.match.params.id}`, exercise)
+        if (location.includes('local')) {
+            axios.post(`http://localhost:5000/exercises/update/${props.match.params.id}`, exercise)
+        } else {
+            axios.post(`/exercises/update/${props.match.params.id}`, exercise)
             .then(res => console.log(res.data))
+        }
+        
+        /* DEVELOPMENT */
+        // axios.post(`http://localhost:5000/exercises/update/${props.match.params.id}`, exercise)
+        
+        /* PRODUCTION */
+        // axios.post(`/exercises/update/${props.match.params.id}`, exercise)
+        //     .then(res => console.log(res.data))
 
         window.location = '/';
 

@@ -94,8 +94,6 @@ const StyledWrapper = styled.div`
 
 const Home = (props) => {
 
-    console.log(props.data)
-
     return (
         <>
             {/* <Indicator page="middle"/> */}

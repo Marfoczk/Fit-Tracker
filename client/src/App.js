@@ -13,8 +13,6 @@ import EditExercisePage from './pages/EditExercisePage/EditExercisePage';
 
 
 let vh = window.innerHeight;
-console.log(vh*100);
-
 
 const StyledWrapper = styled.div`
     position: relative;
@@ -41,15 +39,25 @@ const StyledWrapper = styled.div`
 function App() {
 
   const [data, setData] = useState([])
-
+  
   useEffect(() => {
-    // axios.get('http://localhost:5000/exercises/')
-    // axios.get('https://fit-tracker-mrf.herokuapp.com/')
-    axios.get('/exercises')
-      .then(res => {
-        setData(res.data)
-        console.log(res);
-      })
+    
+    // const location = window.location
+    if (window.location.href.includes('local')) {
+      /* DEVELOPMENT */
+      axios.get('http://localhost:5000/exercises')
+        .then(res => {
+          setData(res.data)
+          console.log(res);
+        })
+    } else {
+    /* PRODUCTION */
+      axios.get('/exercises')
+        .then(res => {
+          setData(res.data)
+          console.log(res);
+        })
+    }  
   }, [])
  
   return (
