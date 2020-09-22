@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'BlackBison';
+    src: local('BlackBison'), url(fonts/BlackBison.otf) format('opentype');
+  }
+@font-face {
+    font-family: 'HighschoolSans';
+    src: local('HighSchoolSans'), url(fonts/HighSchoolSans.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'HighSchoolSerif';
+    src: local('HighSchoolSerif'), url(fonts/HighSchoolSerif.ttf) format('truetype');
+}

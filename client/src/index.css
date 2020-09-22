@@ -18,7 +18,7 @@ code {
     monospace;
 }
 
-
+/* 
 @font-face {
   font-family: 'BlackBison';
   src: local('BlackBison'), url(./fonts/BlackBison.otf), url('./fonts/BlackBison.otf');
@@ -32,4 +32,4 @@ code {
 @font-face {
   font-family: 'HighSchoolSerif';
   src: local('HighSchoolSerif'), url(./fonts/HighSchoolSerif.ttf), url('./fonts/HighSchoolSerif.ttf');
-}
+} */
