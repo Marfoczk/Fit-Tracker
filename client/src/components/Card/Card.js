@@ -8,6 +8,7 @@ import axios from 'axios'
 const Card = ({exercise}) => {
 
     const deleteExercise = () => {
+        // axios.delete(`http://localhost:5000/exercises/${exercise._id}`)
         axios.delete(`/exercises/${exercise._id}`)
             .then(res => console.log(res))
 
