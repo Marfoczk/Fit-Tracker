@@ -9,6 +9,7 @@ Project deployed to Heroku.
 
 ROOT folder contains backend, server. 
 Client folder is where React UI lives.
+
 ```
 npm install && cd client && npm install
 ```
