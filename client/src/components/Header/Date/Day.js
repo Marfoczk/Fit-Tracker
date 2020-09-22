@@ -7,7 +7,9 @@ const StyledDate = styled.div`
     /* top: 20px; */
     display: flex;
     color: #F7F7F8;
-    font-family: 'Anton', sans-serif;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Orbitron';
+    font-weight: 800;
     align-items: flex-end;
     z-index: 99;
     transform: translateY(-30%);

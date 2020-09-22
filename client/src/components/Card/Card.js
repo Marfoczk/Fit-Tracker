@@ -12,7 +12,7 @@ const Card = ({exercise}) => {
         axios.delete(`/exercises/${exercise._id}`)
             .then(res => console.log(res))
 
-            // window.location = '/'
+            window.location = '/'
     }
 
     return (
