@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './fonts/BlackBison.otf'
+import './fonts/HighSchoolSans.ttf'
+import './fonts/HighSchoolSerif.ttf'
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

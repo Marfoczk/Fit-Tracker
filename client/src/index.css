@@ -17,3 +17,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: 'BlackBison';
+  src: local('BlackBison'), url(./fonts/BlackBison.otf);
+}
+
+@font-face {
+  font-family: 'HighSchoolSans';
+  src: local('HighSchoolSans'), url(./fonts/HighSchoolSans.ttf);
+}
+
+@font-face {
+  font-family: 'HighSchoolSerif';
+  src: local('HighSchoolSerif'), url(./fonts/HighSchoolSerif.ttf);
+}

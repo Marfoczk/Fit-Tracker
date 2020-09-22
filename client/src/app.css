@@ -13,7 +13,7 @@
     src: local('HighSchoolSerif'), url(./fonts/HighSchoolSerif.ttf) format('truetype');
 } */
 @font-face {
-    font-family: 'Blackbison';
+    font-family: 'BlackBison';
     src: local('BlackBison'), url(./fonts/BlackBison.otf);
 }
 
