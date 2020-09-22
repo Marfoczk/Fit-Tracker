@@ -113,7 +113,7 @@ const EditExercisePage = (props) => {
         axios.post(`/exercises/update/${props.match.params.id}`, exercise)
             .then(res => console.log(res.data))
 
-        window.location = '/';
+        // window.location = '/';
 
     }
 
