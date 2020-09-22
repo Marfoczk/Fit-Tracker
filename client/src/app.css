@@ -43,11 +43,11 @@ html {
 body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
-    font-family: HighSchoolSans;
+    font-family: "HighSchoolSans";
     /* font-family: HighSchoolSerif; */
 }
 
 
 .font {
-    font-family: Blackbison;
+    font-family: "BlackBison";
 }
