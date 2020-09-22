@@ -1,3 +1,5 @@
+![Alt Text](https://raw.githubusercontent.com/Marfoczk/Fit-Tracker/master/gif.gif)
+
 # fit-tracker
 
 MongoDB, Express, Node.js, React.js (Hooks), Styled-Components, SASS, FontAwesome.
